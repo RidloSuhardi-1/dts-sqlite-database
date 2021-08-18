@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Masukkan nama siswa"
+        android:textSize="20sp"
+        android:textColor="#7d7d7d" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Masukkan nama"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Simpan" />
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ambil data dari SQLite" />
+
+    <TextView
+        android:id="@+id/tvNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masukkan nama dulu"
+        android:textSize="20sp"
+        android:textColor="#7d7d7d" />
+
+</LinearLayout>

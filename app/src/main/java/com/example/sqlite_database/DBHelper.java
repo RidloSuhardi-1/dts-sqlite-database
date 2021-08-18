@@ -10,7 +10,7 @@ import android.util.Log;
 import java.util.ArrayList;
 
 public class DBHelper extends SQLiteOpenHelper {
-    public static String DATABASE_NAME = "student_database";
+    public static String DATABASE_NAME = "student_database.db";
     private static final int DATABASE_VERSION = 1;
     private static final String TABLE_STUDENTS = "students";
     private static final String KEY_ID = "id";
